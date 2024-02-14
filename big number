@@ -1,0 +1,12 @@
+n = int(input())
+cnt = 0
+tot = 1
+for i in range(n):
+    num = int(input())
+    if num > cnt:
+        tot = cnt
+        cnt = num
+    elif num > tot:
+        tot = num
+print(cnt)
+print(tot)
