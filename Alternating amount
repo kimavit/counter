@@ -1,0 +1,6 @@
+n = int(input())
+cnt = 0
+for i in range(n):
+    num = (((-1)**(n+1))*(2*n+1)+1)/4
+    cnt = + num
+print(int(cnt))
